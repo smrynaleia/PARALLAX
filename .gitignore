@@ -10,13 +10,13 @@
 .snapshots/
 #Testing Output folder
 .output/
-#Extension App-file
+#Extension app file
 *.app
-#Rapid Application Development File
+#Rapid Application Development file
 rad.json
-#Translation Base-file
+#Translation Base file
 *.g.xlf
-#License-file
+#License file
 *.flf
 #Test results file
 TestResults.xml
