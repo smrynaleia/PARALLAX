@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim - Kahrimanlar</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Kahrimanlar</h1>
+            <div class="hamburger" aria-label="Menüyü aç/kapat" role="button" tabindex="0">
+                <span></span><span></span><span></span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="contact.html" class="active">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact info and form -->
+    <section class="content">
+        <div class="container contact">
+            <h2>İletişim</h2>
+            <p><strong>Adres:</strong> Örnek Mah. İş Merkezi Sk. No:1 İstanbul</p>
+            <p><strong>Telefon:</strong> <a href="tel:+902121234567">+90 212 123 45 67</a></p>
+            <p><strong>E-posta:</strong> <a href="mailto:info@kahrimanlar.com">info@kahrimanlar.com</a></p>
+
+            <!-- Basic contact form -->
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Adınız</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Mesajınız</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Kahrimanlar Danışmanlık Reklam ve Sanayi Ltd. Şti. Tüm Hakları Saklıdır.</p>
+            <p><a href="#">KVKK</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
