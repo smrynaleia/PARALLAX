@@ -1,6 +1,7 @@
 # PARALLAX
 
-PARALLAX is a lightweight template for building AL extensions on Microsoft Dynamics 365 Business Central. It offers a clean starting point and simple examples to help you get productive quickly.
+PARALLAX is a lightweight template for building AL extensions on Microsoft Dynamics 365 Business Central.
+It offers a clean starting point and simple examples to help you get productive quickly.
 
 ## Getting Started
 
@@ -18,7 +19,8 @@ PARALLAX is a lightweight template for building AL extensions on Microsoft Dynam
 
 ## Sample Code
 
-The `src/` folder contains a tiny "Hello World" page extension showing how to add an action to the Role Center. It illustrates the project's layout and basic AL syntax.
+The `src/` folder contains a tiny "Hello World" page extension showing how to add an action to the Role Center.
+It illustrates the project's layout and basic AL syntax.
 
 ## Contributing
 
