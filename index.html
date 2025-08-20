@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eganis Studio - Shopify Dijital Çözümler</title>
+    <!-- Inter yazı tipini yükle -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <!-- Tailwind CSS'i yükle -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+        }
+        .hero {
+            background: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.9)), url('https://placehold.co/1920x1080/0A0A0A/E0E0E0?text=Eganis+Studio');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Ana Konteyner -->
+    <div class="flex-grow flex flex-col items-center justify-center">
+
+        <!-- Logo ve Başlık Bölümü -->
+        <section class="w-full text-center py-20 px-4 hero rounded-b-[40px] shadow-lg">
+            <div class="max-w-4xl mx-auto">
+                <!-- Logoyu SVG olarak oluşturun, bu da daha net ve profesyonel bir görünüm sağlar -->
+                <svg class="mx-auto mb-6" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="99" height="99" rx="19.5" stroke="#FFD700" stroke-opacity="0.8" stroke-width="2"/>
+                    <rect x="8.5" y="8.5" width="83" height="83" rx="15.5" stroke="#FFD700" stroke-opacity="0.8" stroke-width="2"/>
+                    <text x="50%" y="45%" text-anchor="middle" alignment-baseline="middle" font-size="20" font-weight="bold" fill="#FFF">EGANIS</text>
+                    <text x="50%" y="65%" text-anchor="middle" alignment-baseline="middle" font-size="12" fill="#FFD700">STUDIO</text>
+                </svg>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
+                    E-ticaretinizi Yükseltin. Shopify'da Parlayın.
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                    Shopify'a özel modern tasarım, sistemli entegrasyonlar ve yenilikçi pazarlama stratejileriyle dijital varlığınızı yeniden tanımlıyoruz.
+                </p>
+                <a href="#hizmetler" class="bg-yellow-500 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-400 transition-colors duration-300 ease-in-out">
+                    Hizmetlerimizi Keşfedin
+                </a>
+            </div>
+        </section>
+
+        <!-- Hizmetler Bölümü -->
+        <section id="hizmetler" class="w-full py-20 px-4 md:px-8 max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-white">Shopify'a Özel Hizmetlerimiz</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Hizmet Kartı 1: Web Tasarımı & UX -->
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-yellow-500 text-gray-900 rounded-full mb-6">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5.5 8a.5.5 0 01.5-.5h2a.5.5 0 010 1H6a.5.5 0 01-.5-.5zM11 8a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5zM8 12a.5.5 0 01.5-.5h3a.5.5 0 010 1h-3a.5.5 0 01-.5-.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">Shopify Tasarım ve Kullanıcı Deneyimi</h3>
+                    <p class="text-gray-400">
+                        Markanıza özel, dönüşüm odaklı ve modern Shopify mağazaları tasarlıyoruz. Kullanıcı deneyimini ön planda tutarak, ziyaretçilerinizi sadık müşterilere dönüştürüyoruz.
+                    </p>
+                </div>
+                
+                <!-- Hizmet Kartı 2: SEO & Dijital Pazarlama -->
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-yellow-500 text-gray-900 rounded-full mb-6">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 4.293a1 1 0 012 0V15a1 1 0 11-2 0V4.293z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">SEO ve Dijital Reklamcılık</h3>
+                    <p class="text-gray-400">
+                        Organik trafiğinizi artırmak için Shopify SEO'sunda uzmanız. Google, Meta ve TikTok gibi platformlarda dönüşüm odaklı reklam kampanyaları yöneterek satışlarınızı yükseltiriz.
+                    </p>
+                </div>
+                
+                <!-- Hizmet Kartı 3: Entegrasyon ve Uygulama Geliştirme -->
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-yellow-500 text-gray-900 rounded-full mb-6">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 2a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V4a2 2 0 00-2-2H5zm0 2h10a.5.5 0 01.5.5v12a.5.5 0 01-.5.5H5a.5.5 0 01-.5-.5V4.5A.5.5 0 015 4zM7 6a1 1 0 11-2 0 1 1 0 012 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">Shopify App ve Entegrasyon</h3>
+                    <p class="text-gray-400">
+                        İş akışınızı optimize etmek için özel Shopify uygulamaları geliştiriyor ve mevcut iş sistemlerinize kusursuz entegrasyonlar sağlıyoruz.
+                    </p>
+                </div>
+
+                <!-- Hizmet Kartı 4: E-ticaret Danışmanlığı -->
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-yellow-500 text-gray-900 rounded-full mb-6">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 4.293a1 1 0 012 0V15a1 1 0 11-2 0V4.293z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">E-ticaret Büyüme Stratejileri</h3>
+                    <p class="text-gray-400">
+                        Veri analizi ve pazar trendlerini kullanarak Shopify mağazanız için kişiselleştirilmiş büyüme stratejileri oluşturuyoruz. Dönüşüm oranlarınızı artırın, sepet ortalamanızı yükseltin.
+                    </p>
+                </div>
+                
+                <!-- Hizmet Kartı 5: Grafik & Marka Kimliği -->
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-yellow-500 text-gray-900 rounded-full mb-6">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2a2 2 0 00-2 2v12a2 2 0 002 2h4a2 2 0 002-2V4a2 2 0 00-2-2h-4zM4 2a2 2 0 00-2 2v12a2 2 0 002 2h4a2 2 0 002-2V4a2 2 0 00-2-2H4zM10 4a.5.5 0 01.5-.5h-1a.5.5 0 01.5.5v12a.5.5 0 01-.5.5h1a.5.5 0 01-.5-.5V4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">Marka Kimliği ve Grafik Tasarım</h3>
+                    <p class="text-gray-400">
+                        Markanızın hikayesini yansıtan profesyonel logo, kurumsal kimlik ve dijital görsel tasarımlarıyla Shopify mağazanıza profesyonel bir kimlik kazandırıyoruz.
+                    </p>
+                </div>
+                
+                <!-- Hizmet Kartı 6: Prodüksiyon ve Medya -->
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-yellow-500 text-gray-900 rounded-full mb-6">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 4.293a1 1 0 012 0V15a1 1 0 11-2 0V4.293z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">Ürün Video ve Fotoğraf Çekimi</h3>
+                    <p class="text-gray-400">
+                        Shopify mağazanız için profesyonel ürün fotoğrafları ve tanıtım videoları çekerek ürünlerinizi en çekici şekilde sergiliyoruz.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Bölümü -->
+        <section id="blog" class="w-full py-20 px-4 md:px-8 max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-white">Blog Yazılarımız</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Yazısı 1 -->
+                <a href="#" class="block bg-gray-800 rounded-3xl shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/2C2C2C/E0E0E0?text=Shopify+SEO" alt="Shopify'da SEO" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Shopify Mağazanız İçin 10 SEO İpucu</h3>
+                        <p class="text-gray-400 text-sm">Organik trafiğinizi artırmak için hemen uygulayabileceğiniz etkili SEO stratejilerini keşfedin.</p>
+                    </div>
+                </a>
+
+                <!-- Blog Yazısı 2 -->
+                <a href="#" class="block bg-gray-800 rounded-3xl shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/2C2C2C/E0E0E0?text=UX+Tasar%C4%B1m%C4%B1" alt="UX Tasarımı" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Dönüşüm Odaklı Shopify UX Tasarımı</h3>
+                        <p class="text-gray-400 text-sm">Kullanıcı deneyimini geliştirerek satışlarınızı nasıl artırabileceğinizi öğrenin.</p>
+                    </div>
+                </a>
+
+                <!-- Blog Yazısı 3 -->
+                <a href="#" class="block bg-gray-800 rounded-3xl shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/2C2C2C/E0E0E0?text=Dijital+Reklam" alt="Dijital Reklam" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Meta Ads ile Shopify Satışlarını Artırma</h3>
+                        <p class="text-gray-400 text-sm">Hedef kitlenize doğru reklamlarla nasıl ulaşabileceğinizi keşfedin ve yatırım getirisini maksimize edin.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- İletişim Formu Bölümü -->
+        <section id="iletisim" class="w-full py-20 px-4 md:px-8 max-w-4xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-white">Bize Ulaşın</h2>
+            <div class="bg-gray-800 p-8 md:p-12 rounded-3xl shadow-xl">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-300 text-lg font-medium mb-2">İsim Soyisim *</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-xl bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition-colors">
+                    </div>
+                    <div>
+                        <label for="company" class="block text-gray-300 text-lg font-medium mb-2">Firma İsmi *</label>
+                        <input type="text" id="company" name="company" required class="w-full px-4 py-3 rounded-xl bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition-colors">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-300 text-lg font-medium mb-2">E-posta Adresi *</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-xl bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition-colors">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-300 text-lg font-medium mb-2">Mesajınız *</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 rounded-xl bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition-colors"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-yellow-500 text-gray-900 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-yellow-400 transition-colors duration-300 ease-in-out">
+                        Gönder
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Alt Bilgi Bölümü -->
+        <footer class="w-full py-8 px-4 text-center mt-auto">
+            <div class="max-w-6xl mx-auto border-t border-gray-700 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm">
+                    <p class="text-gray-400">&copy; 2024 Eganis Studio. Tüm Hakları Saklıdır.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Gizlilik Politikası</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Hizmet Şartları</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
