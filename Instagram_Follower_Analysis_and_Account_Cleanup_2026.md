@@ -3,6 +3,33 @@
 ## Purpose
 Use this guide to audit your follower base, identify low‑value or risky accounts, and keep your community healthy without harming reach or engagement.
 
+## Türkçe Özet: Takipçi Analizi + Temizleme (2026)
+Bu bölüm, takipçi analizi yapmak ve güvenli şekilde takipçi/etkileşim temizliği uygulamak isteyenler için Türkçe bir özet sunar.
+
+**Takipçi analizi için ölçülecekler**
+- Toplam takipçi ve takip edilen sayısı
+- Son 30 günlük erişim ve etkileşim oranı
+- Son 90 günde en çok etkileşim alan 10 paylaşım
+- İnaktif/şüpheli hesap tahmini
+
+**Düşük kaliteli takipçi sinyalleri**
+- Profil fotoğrafı yok
+- Kullanıcı adı otomatik üretilmiş gibi (rastgele sayı/harf)
+- Çok az paylaşım veya sadece yeniden paylaşım
+- Kopya/kalıp yorumlar
+- Takipçi–takip edilen oranı aşırı dengesiz
+- 6–12 aydır görünür aktivite yok
+
+**Güvenli temizlik yaklaşımı**
+- Günlük 20–50 hesapla sınırlı kal
+- Açıkça bot/spam olanlarla başla
+- Etkileşim alan gerçek hesapları kaldırmaktan kaçın
+
+**Otomatik unfollow uygulamaları hakkında**
+- Instagram, otomasyon ve şifre isteyen üçüncü taraf uygulamalara karşı katıdır.
+- Toplu unfollow botları hesabın kısıtlanmasına veya kapatılmasına yol açabilir.
+- Bu yüzden otomatik unfollow yerine, Instagram’ın kendi araçlarıyla kademeli temizlik önerilir.
+
 ## What to Track (2026‑ready)
 Capture a snapshot of your account for a clear baseline before making changes.
 
@@ -88,4 +115,3 @@ Use a simple table to track monthly changes.
 | 2026‑01 |           |           |       |                 |                |       |
 | 2026‑02 |           |           |       |                 |                |       |
 | 2026‑03 |           |           |       |                 |                |       |
-
